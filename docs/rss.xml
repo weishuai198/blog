@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>老魏博客</title><link>https://weishuai198.github.io/blog</link><description>记录生活，分享技术，留下成长足迹</description><copyright>老魏博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/174702824?u=3a19779ebb663e3659ae367f7acf83bbc7ade05f&amp;v=4&amp;size=64</url><title>avatar</title><link>https://weishuai198.github.io/blog</link></image><lastBuildDate>Wed, 03 Jun 2026 11:24:16 +0000</lastBuildDate><managingEditor>老魏博客</managingEditor><ttl>60</ttl><webMaster>老魏博客</webMaster><item><title>一款可以抽取MKV视频字幕/音频的软件</title><link>https://weishuai198.github.io/blog/post/5.html</link><description>下载国外生肉的时候没有中文字幕，而且大多数都是mkv格式的，
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>老魏博客</title><link>https://weishuai198.github.io/blog</link><description>记录生活，分享技术，留下成长足迹</description><copyright>老魏博客</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/174702824?u=3a19779ebb663e3659ae367f7acf83bbc7ade05f&amp;v=4&amp;size=64</url><title>avatar</title><link>https://weishuai198.github.io/blog</link></image><lastBuildDate>Wed, 03 Jun 2026 11:44:43 +0000</lastBuildDate><managingEditor>老魏博客</managingEditor><ttl>60</ttl><webMaster>老魏博客</webMaster><item><title>一款可以抽取MKV视频字幕/音频的软件</title><link>https://weishuai198.github.io/blog/post/5.html</link><description>下载国外生肉的时候没有中文字幕，而且大多数都是mkv格式的，
 这时候就要用到这款软件了
 `Gmeek-html&lt;img src='https://weishuai168.github.io/post-images/bB2oAzCFI.jpg'&gt;`
 。</description><guid isPermaLink="true">https://weishuai198.github.io/blog/post/5.html</guid><pubDate>Wed, 03 Jun 2026 09:37:40 +0000</pubDate></item><item><title>[解决]Parallels Desktop Windows虚拟机的快捷方式在Mac桌面上显示</title><link>https://weishuai198.github.io/blog/post/4.html</link><description>### 文件夹路径为：
@@ -7,4 +7,12 @@
 第二步：点击左上角查看，显示隐藏内容
 第三步：把win10桌面快捷方式移动进入公用桌面即可
 第四步：再把公共桌面设置为隐藏，全部搞定。</description><guid isPermaLink="true">https://weishuai198.github.io/blog/post/4.html</guid><pubDate>Wed, 03 Jun 2026 09:08:32 +0000</pubDate></item><item><title>给电脑做系统重启时提示无效分区，哪里出问题了</title><link>https://weishuai198.github.io/blog/post/gei-dian-nao-zuo-xi-tong-zhong-qi-shi-ti-shi-wu-xiao-fen-qu-%EF%BC%8C-na-li-chu-wen-ti-le.html</link><description>电脑在重启时提示无效分区，可能是以下几个原因导致的：
-分区表损坏：硬盘的分区表可能被损坏或丢失，导致系统无法识别有效的分区。</description><guid isPermaLink="true">https://weishuai198.github.io/blog/post/gei-dian-nao-zuo-xi-tong-zhong-qi-shi-ti-shi-wu-xiao-fen-qu-%EF%BC%8C-na-li-chu-wen-ti-le.html</guid><pubDate>Wed, 03 Jun 2026 00:07:09 +0000</pubDate></item><item><title>测试</title><link>https://weishuai198.github.io/blog/post/1.html</link><description>这是一个markdown格式的测试页面，也是个人经常会使用的格式记录。</description><guid isPermaLink="true">https://weishuai198.github.io/blog/post/1.html</guid><pubDate>Tue, 02 Jun 2026 23:31:14 +0000</pubDate></item></channel></rss>
+分区表损坏：硬盘的分区表可能被损坏或丢失，导致系统无法识别有效的分区。</description><guid isPermaLink="true">https://weishuai198.github.io/blog/post/gei-dian-nao-zuo-xi-tong-zhong-qi-shi-ti-shi-wu-xiao-fen-qu-%EF%BC%8C-na-li-chu-wen-ti-le.html</guid><pubDate>Wed, 03 Jun 2026 00:07:09 +0000</pubDate></item><item><title>测试</title><link>https://weishuai198.github.io/blog/post/1.html</link><description>---
+layout: post
+title: '这是一篇想要置顶的文章'
+date: 2026-06-03
+tags: [随笔]
+top: 1
+---
+
+这是一个markdown格式的测试页面，也是个人经常会使用的格式记录。</description><guid isPermaLink="true">https://weishuai198.github.io/blog/post/1.html</guid><pubDate>Tue, 02 Jun 2026 23:31:14 +0000</pubDate></item></channel></rss>
