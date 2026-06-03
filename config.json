@@ -2,15 +2,6 @@
     "title":"老魏博客",
     "subTitle":"记录生活，分享技术，留下成长足迹",
     "avatarUrl":"https://avatars.githubusercontent.com/u/174702824?u=3a19779ebb663e3659ae367f7acf83bbc7ade05f&v=4&size=64",
-    "GMEEK_VERSION":"last"
-    "startSite":"02/16/2023",
-    "onePageListNum":13,
-    "commentLabelColor":"#006b75",
-    "yearColorList":["#bc4c00","#0969da", "#1f883d", "#A333D0"],
-   "dayTheme":"light",
-    "nightTheme":"dark_colorblind",
-    "urlMode":"issue","
-    "bottomText":"转载请注明出处",
-    "ogImage":"https://cdn.jsdelivr.net/gh/Meekdai/meekdai.github.io/logo64.jpg",
+    "GMEEK_VERSION":"last"   
 }
 
