@@ -22,7 +22,7 @@
 第三步：把win10桌面快捷方式移动进入公用桌面即可
 第四步：再把公共桌面设置为隐藏，全部搞定。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://weishuai198.github.io/blog/post/4.html">
+<meta property="og:url" content="https://weishuai198.github.io/blog/post/%5B-jie-jue-%5DParallels%20Desktop%20Windows-xu-ni-ji-de-kuai-jie-fang-shi-zai-Mac-zhuo-mian-shang-xian-shi.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/174702824?u=3a19779ebb663e3659ae367f7acf83bbc7ade05f&v=4&size=64">
 <title>[解决]Parallels Desktop Windows虚拟机的快捷方式在Mac桌面上显示</title>
 
@@ -86,7 +86,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 第二步：点击左上角查看，显示隐藏内容<br>
 第三步：把win10桌面快捷方式移动进入公用桌面即可<br>
 第四步：再把公共桌面设置为隐藏，全部搞定</p></div>
-<div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
+<div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
@@ -101,8 +101,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 var now=new Date();
 document.getElementById("copyrightYear").innerHTML=now.getFullYear();
 
-if("02/16/2025"!=""){
-    var startSite=new Date("02/16/2025");
+if(""!=""){
+    var startSite=new Date("");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
     document.getElementById("runday").innerHTML="网站运行 "+diffDay+" 天"+" • ";
@@ -144,7 +144,11 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-
+cmButton=document.getElementById("cmButton");
+    span=document.createElement("span");
+    span.setAttribute("class","Counter");
+    span.innerHTML="1";
+    cmButton.appendChild(span);
 
 
 function openComments(){
