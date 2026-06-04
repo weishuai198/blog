@@ -8,14 +8,14 @@
 4. 【手动全局生成】这个步骤只有在修改config.json文件或者出现奇怪问题的时候，需要执行。
 ### 安装问题
 1. 如果有问题可参考[Gmeek快速上手](https://blog.meekdai.com/post/Gmeek-kuai-su-shang-shou.html)
-2. 2. 在本仓库提交[Issues](https://github.com/Meekdai/Gmeek/issues)之前，请手动全局生成一次。如果还有错误，提交Issues后，我会帮忙查看构建流程，定位问题出处。
+2. 在本仓库提交[Issues](https://github.com/Meekdai/Gmeek/issues)之前，请手动全局生成一次。如果还有错误，提交Issues后，我会帮忙查看构建流程，定位问题出处。
 ### 特性•
- UI界面和Github同源，只引入了Github原生CSS：primer.style
+ • UI界面和Github同源，只引入了Github原生CSS：primer.style
  • 博客写作在Issues中完成后，自动触发Actions执行部署任务
  • 评论系统引入utteranc.es
  • 使用jinja2对html进行渲染，可通过模板自定义UI主题
 ### :page_facing_up: [8](https://weishuai198.github.io/blog/tag.html) 
 ### :speech_balloon: 1 
 ### :hibiscus: 9874 
-### :alarm_clock: 2026-06-04 11:27:08 
+### :alarm_clock:
 ### Powered by :heart: [Gmeek](https://github.com/Meekdai/Gmeek)
