@@ -11,11 +11,11 @@
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
 <meta name="description" content="### 利用Gmeek博客框架在GitHub上创建了我的博客
-我想置顶一篇文章，查看官方文档是这样说的
+想置顶一篇文章，查看官方文档是这样说的
 置顶博客文章只需要Pin issue后，手动全局生成一次即可。">
 <meta property="og:title" content="Gmeek博客首页置顶功能终于搞明白了">
 <meta property="og:description" content="### 利用Gmeek博客框架在GitHub上创建了我的博客
-我想置顶一篇文章，查看官方文档是这样说的
+想置顶一篇文章，查看官方文档是这样说的
 置顶博客文章只需要Pin issue后，手动全局生成一次即可。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://weishuai198.github.io/blog/post/6.html">
@@ -78,7 +78,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><h3>利用Gmeek博客框架在GitHub上创建了我的博客</h3>
-<p>我想置顶一篇文章，查看官方文档是这样说的<br>
+<p>想置顶一篇文章，查看官方文档是这样说的<br>
 置顶博客文章只需要Pin issue后，手动全局生成一次即可。<br>
 可我看几遍也不懂，问AI给出答案<br>
 第一步：在 GitHub 仓库中 Pin（置顶）你的 Issue<br>
@@ -96,7 +96,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 </div>
     <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://weishuai198.github.io/blog">老魏博客</a></div>
-<div id="footer2">
+<div id="footer2"><span id="filingNum"><a href="https://beian.miit.gov.cn/" target="_blank"><span id='busuanzi_container_site_pv'>本站总访问量 <span id='busuanzi_value_site_pv'></span> 次</span></a> • </span>
     <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
 </div>
 
@@ -104,8 +104,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 var now=new Date();
 document.getElementById("copyrightYear").innerHTML=now.getFullYear();
 
-if(""!=""){
-    var startSite=new Date("");
+if("02/16/2025"!=""){
+    var startSite=new Date("02/16/2025");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
     document.getElementById("runday").innerHTML="网站运行 "+diffDay+" 天"+" • ";
