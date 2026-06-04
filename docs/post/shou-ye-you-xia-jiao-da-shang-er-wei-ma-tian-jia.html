@@ -446,7 +446,7 @@ document.addEventListener('DOMContentLoaded', function() {
 版本二说明:配置说明
 · showCodes 数组：调整顺序即可改变图标排列顺序（如 [2,1,3] 会显示“赏、本页、群”）。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://weishuai198.github.io/blog/post/9.html">
+<meta property="og:url" content="https://weishuai198.github.io/blog/post/shou-ye-you-xia-jiao-da-shang-er-wei-ma-tian-jia.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/174702824?u=3a19779ebb663e3659ae367f7acf83bbc7ade05f&v=4&size=64">
 <title>首页右下角打赏二维码添加</title>
 
@@ -475,7 +475,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 }
 
 </style>
-<style>#postBody{font-size:20px}</style>
+
 
 
 
@@ -690,14 +690,14 @@ window.addEventListener('popstate', refreshPage);<br>
 });</p>
 <p>版本二说明:配置说明<br>
 · showCodes 数组：调整顺序即可改变图标排列顺序（如 [2,1,3] 会显示“赏、本页、群”）。· qrData 中的 img 路径：请将 /img/wxzym.webp 和 /img/qqqewm.webp 替换为您实际的二维码图片地址。· 图标 icon：目前用的是 Emoji（📄🍻💬），您也可以换成 <a target="_blank" rel="noopener noreferrer" href="..."><img src="..." style="max-width: 100%;"></a> 标签，只需将 iconSpan.innerHTML = item.icon; 保持不变（因为 innerHTML 会解析 HTML 标签）。· 如需增加第四、五个二维码：在 showCodes 中添加新 id，并在 qrData 中对应添加配置项即可，格式与现有保持一致。·只处理配置存在的项:若 showCodes 中的id 不存在于qrData 则自动忽略,不会产生多余元素。</p></div>
-<div style="font-size:small;margin-top:8px;float:right;"><span id='busuanzi_container_page_pv'>本文阅读量 <span id='busuanzi_value_page_pv'></span> 次</span></div>
+<div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
 
 </div>
     <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://weishuai198.github.io/blog">老魏博客</a></div>
-<div id="footer2"><span id="filingNum"><a href="https://beian.miit.gov.cn/" target="_blank"><span id='busuanzi_container_site_pv'>本站总访问量 <span id='busuanzi_value_site_pv'></span> 次</span></a> • </span>
+<div id="footer2">
     <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
 </div>
 
@@ -705,8 +705,8 @@ window.addEventListener('popstate', refreshPage);<br>
 var now=new Date();
 document.getElementById("copyrightYear").innerHTML=now.getFullYear();
 
-if("02/16/2025"!=""){
-    var startSite=new Date("02/16/2025");
+if(""!=""){
+    var startSite=new Date("");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
     document.getElementById("runday").innerHTML="网站运行 "+diffDay+" 天"+" • ";
@@ -791,6 +791,6 @@ function iFrameLoading(){
 
 
 </script>
-<script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script>
+
 
 </html>
