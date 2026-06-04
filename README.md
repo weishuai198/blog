@@ -15,7 +15,4 @@
  • 评论系统引入utteranc.es
  • 使用jinja2对html进行渲染，可通过模板自定义UI主题
 ### :page_facing_up: [8](https://weishuai198.github.io/blog/tag.html) 
-### :speech_balloon: 1 
-### :hibiscus: 9874 
-### :alarm_clock:
 ### Powered by :heart: [Gmeek](https://github.com/Meekdai/Gmeek)
