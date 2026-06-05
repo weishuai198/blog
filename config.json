@@ -1,16 +1,16 @@
 {
-    "title":"小饅頭の部落格",
-    "subTitle":"Stay hungry. Stay foolish. --Steve Jobs",
+    "title":"老魏博客",
+    "subTitle":"记录生活，分享技术，留下成长足迹",
     "avatarUrl":"../avatar.png",
     "GMEEK_VERSION":"last",
     
-    "displayTitle":"小饅頭の部落格",
-    "homeUrl":"https://grapehut.dpdns.org",
+    "displayTitle":"老魏博客",
+    "homeUrl":"https://weishuai198.github.io/blog/",
     "faviconUrl":"../favicon.svg",
     
     "email":"<style>@font-face {font-family: 'CustomFont';src: '../fonts/975MaruSC-Bold.ttf') format('truetype');}#postBody {font-family: CustomFont;}</style>",
-    "startSite":"08/31/2024",
-    "filingNum":"<a href='https://icp.gov.moe/?keyword=20241189' target='_blank'>萌ICP备20241189号</a>",
+    "startSite":"08/31/2025",
+    "filingNum":"",
     "onePageListNum":100,
     
     "#singlePage":["about","link"],
@@ -22,9 +22,9 @@
     },
 
     "exlink":{
-        "RSS月刊🔖":"https://grapehut.dpdns.org/gmerss",
-        "音楽🎶":"https://music.grapehut.dpdns.org",
-        "Me💕":"https://grapehut.dpdns.org/me"
+        "RSS月刊🔖":"",
+        "音楽🎶":"",
+        "Me💕":""
     },
     
     "commentLabelColor":"#006b75",
