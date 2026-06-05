@@ -3,27 +3,15 @@
     "subTitle":"记录生活，分享技术，留下成长足迹",
     "avatarUrl":"https://avatars.githubusercontent.com/u/174702824?v=4&size=64",
     "GMEEK_VERSION":"last",
-    
     "displayTitle":"老魏博客",
     "homeUrl":"https://weishuai198.github.io/blog/",
-    "faviconUrl":"",
-    
-    "email":"",
     "startSite":"08/31/2025",
-    "filingNum":"",
-    "onePageListNum":100,
-    
-    },
-    
     "themeMode":"fix",
     "dayTheme":"light",
     "nightTheme":"dark-blue",
     "urlMode":"issue",
     "rssSplit":"sentence",
     "bottomText":"❤️ 转载文章请注明出处，谢谢！❤️",
-    "ogImage":"",
-    "primerCSS":"",
-    "showPostSource":0,
     "needComment":1
     "style":"<style>#postBody{font-size:20px}</style>",
     "script":"<script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script>",
