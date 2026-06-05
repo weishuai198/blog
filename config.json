@@ -6,7 +6,7 @@
     "displayTitle":"老魏博客",
     "homeUrl":"https://weishuai198.github.io/blog/",
     "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
-    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>",
+    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script><style>.post-title{font-size:2.2rem !important;}</style>",
     "startSite":"08/31/2025",
     "themeMode":"fix",
     "dayTheme":"light",
