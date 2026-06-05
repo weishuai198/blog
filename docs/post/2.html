@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href='https://cdn.jsdelivr.net/npm/@primer/css@21.5.1/dist/primer.min.css' rel='stylesheet' />
-    <link rel="icon" href="../favicon.svg">
+    <link rel="icon" href="">
 <meta name="description" content="老魏博客">
 <meta property="og:title" content="给windows电脑做系统重启时提示无效分区，哪里出问题了？">
 <meta property="og:description" content="老魏博客">
@@ -64,7 +64,7 @@ footer{margin-top:64px; text-align: center;font-size: small;}
 <body>
     <header>
 <nav class="title-left">
-    <img src="../avatar.png" class="avatar circle" id="avatarImg" alt="avatar">
+    <img src="avatars.githubusercontent.com/u/174702824?v=4&size=64" class="avatar circle" id="avatarImg" alt="avatar">
     <h1 class="postTitle">给windows电脑做系统重启时提示无效分区，哪里出问题了？</h1>
 </nav>
 <nav class="title-right">
@@ -86,7 +86,7 @@ footer{margin-top:64px; text-align: center;font-size: small;}
 </nav>
 </header>
     <main id="content">
-<section style="font-size:10px; text-align:right;"><p>created at 2026-06-03 00:07,updated at 2026-06-04 10:14</p></section><nav class="paginate-container" aria-label="Pagination">
+<section style="font-size:10px; text-align:right;"><p>created at 2026-06-03 00:07,updated at 2026-06-05 01:14</p></section><nav class="paginate-container" aria-label="Pagination">
     <div class="pagination"><a class="previous_page" href="https://weishuai198.github.io/blog//post/1.html" aria-label="Previous Page">上一篇-markdown语法格式学习使用分享</a><a class="next_page" href="https://weishuai198.github.io/blog//post/4.html" aria-label="Next Page">下一篇-如何解决Parallels Desktop Windows虚拟机的快捷方式在Mac桌面上显示</a></div>
 </nav>
 
@@ -156,7 +156,12 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 document.getElementById("pathSearch").setAttribute("d",IconList["search"]);
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 
-
+cmButton=document.getElementById("cmButton");
+    span=document.createElement("span");
+    span.setAttribute("class","Counter");
+    span.innerHTML="1";
+    cmButton.appendChild(span);
+    cmButton.style.display="none";
 
 
 //function openComments(){
