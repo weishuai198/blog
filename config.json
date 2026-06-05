@@ -1,14 +1,14 @@
 {
     "title":"老魏博客",
     "subTitle":"记录生活，分享技术，留下成长足迹",
-    "avatarUrl":"../avatar.png",
+    "avatarUrl":"avatars.githubusercontent.com/u/174702824?v=4&size=64",
     "GMEEK_VERSION":"last",
     
     "displayTitle":"老魏博客",
     "homeUrl":"https://weishuai198.github.io/blog/",
-    "faviconUrl":"../favicon.svg",
+    "faviconUrl":"",
     
-    "email":"<style>@font-face {font-family: 'CustomFont';src: '../fonts/975MaruSC-Bold.ttf') format('truetype');}#postBody {font-family: CustomFont;}</style>",
+    "email":"",
     "startSite":"08/31/2025",
     "filingNum":"",
     "onePageListNum":100,
